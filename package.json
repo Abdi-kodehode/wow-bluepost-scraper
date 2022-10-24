@@ -1,0 +1,19 @@
+{
+  "name": "wow-bluepost-scraping",
+  "version": "1.0.0",
+  "description": "All the relevant blue post from wowhead",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "HuDao",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "puppeteer": "^17.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.displayFeed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: dotted grey 3px;
+    gap: 2rem;
+}
